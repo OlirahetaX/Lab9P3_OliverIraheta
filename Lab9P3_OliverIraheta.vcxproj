@@ -127,7 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AdmArchivos.cpp" />
     <ClCompile Include="Lab9P3_OliverIraheta.cpp" />
+    <ClCompile Include="Paypal.cpp" />
+    <ClCompile Include="UsuarioPaypal.cpp" />
+    <ClCompile Include="Wallet.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdmArchivos.h" />
+    <ClInclude Include="Paypal.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="UsuarioPaypal.h" />
+    <ClInclude Include="Wallet.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Lab9P3_OliverIraheta.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
