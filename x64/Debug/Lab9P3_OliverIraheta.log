@@ -1,4 +1,10 @@
-﻿  AdmArchivos.cpp
-  Lab9P3_OliverIraheta.cpp
+﻿  Lab9P3_OliverIraheta.cpp
+  Wallet.cpp
+C:\Users\Oliver Iraheta\Documents\Clases\Sistemas\Progra3\Lab\Lab9P3_OliverIraheta\Wallet.cpp(49,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Oliver Iraheta\Documents\Clases\Sistemas\Progra3\Lab\Lab9P3_OliverIraheta\Wallet.cpp(64,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Oliver Iraheta\Documents\Clases\Sistemas\Progra3\Lab\Lab9P3_OliverIraheta\Wallet.cpp(79,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Oliver Iraheta\Documents\Clases\Sistemas\Progra3\Lab\Lab9P3_OliverIraheta\Wallet.cpp(93,26): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Oliver Iraheta\Documents\Clases\Sistemas\Progra3\Lab\Lab9P3_OliverIraheta\Wallet.cpp(107,26): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Oliver Iraheta\Documents\Clases\Sistemas\Progra3\Lab\Lab9P3_OliverIraheta\Wallet.cpp(121,26): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Generating Code...
   Lab9P3_OliverIraheta.vcxproj -> C:\Users\Oliver Iraheta\Documents\Clases\Sistemas\Progra3\Lab\Lab9P3_OliverIraheta\x64\Debug\Lab9P3_OliverIraheta.exe

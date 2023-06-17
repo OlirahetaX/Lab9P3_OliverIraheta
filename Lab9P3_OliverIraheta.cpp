@@ -110,7 +110,7 @@ void accerderWallet(vector<Wallet>& wallets,Paypal& paypal) {
 	string contra = paypal.getDato("Ingrese Contrasenia: ");
 	bool flag = false;
 	Wallet* ptrW = new Wallet;//lo hice asi por que me tira un error
-	for (Wallet w : wallets.g()) {
+	for (Wallet w : wallets) {
 		if (w.gName() == usuario && w.gContra() == contra) {
 			flag = true;
 			ptrW = &w;

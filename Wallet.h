@@ -11,10 +11,13 @@ public:
 	string gName();
 	string gContra();
 	UsuarioPaypal* gUsu();
-	
+	void fondos();
 	void venderDoge();
 	void vendecrWalter();
 	void venderEth();
+	void comprarDoge();
+	void comprarWalter();
+	void comprarEth();
 
 };
 

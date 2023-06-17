@@ -48,28 +48,30 @@ float UsuarioPaypal::gMoney()
 
 void UsuarioPaypal::deposito(float money, bool wallet) {
 	this->money += money;
-	cout << " -- Se ha relizado un deposito de " << money << " dolares.\n";
-	cout << " SU SALDO ACTUAL ES DE: " << this->money;
 	string depo = "Se ha depositado ";
 	depo += money;
 	if (wallet) //si se ha realizado el deposito desde la venta de crypto
 		depo += " dolares desde su wallet.";
-	else
+	else {
+		cout << " -- Se ha relizado un deposito de " << money << " dolares.\n";
+		cout << " SU SALDO ACTUAL ES DE: " << this->money;
 		depo += " dolares desde su misma cuenta.";
+	}
 	historial.push_back(depo);
 }
 
 void UsuarioPaypal::retiro(float money, bool wallet) {
 	if (this->money > money) {
 		this->money -= money;
-		cout << " -- Se ha relizado un retiro de " << money << " dolares.\n";
-		cout << " SU SALDO ACTUAL ES DE: " << this->money;
 		string depo = "Se ha retirado ";
 		depo += money;
 		if (wallet) //si se ha realizado el retiro desde la  de crypto
 			depo += " dolares desde su wallet.";
-		else
+		else {
+			cout << " -- Se ha relizado un retiro de " << money << " dolares.\n";
+			cout << " SU SALDO ACTUAL ES DE: " << this->money;
 			depo += " dolares desde su misma cuenta.";
+		}
 		historial.push_back(depo);
 	}
 	else {
